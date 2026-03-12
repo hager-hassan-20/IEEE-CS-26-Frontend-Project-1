@@ -123,6 +123,11 @@ header {
     border-bottom: 1px solid #eee;
 }
 
+.menu-icon {
+    display: none;
+    font-size: 24px;
+}
+
 .logo {
     font-family: Inter;
     font-weight: 700;
@@ -279,7 +284,7 @@ header {
 
 }
 
-.image img {
+.himage img {
     width: 707px;
     height: 442px;
     top: 338px;
@@ -789,4 +794,237 @@ button {
     left: 579px;
     margin-top: 1770px;
     margin-left: 270px;
+}
+
+/*----------Responsive------------*/
+
+@media (max-width: 768px) {
+
+    /* top bar */
+    .top {
+        flex-direction: column;
+        text-align: center;
+        width: 768px;
+        height: 36px;
+        opacity: 1;
+        padding-top: 10px;
+        padding-right: 104px;
+        padding-bottom: 10px;
+        padding-left: 104px;
+        gap: 10px;
+    }
+
+    /* navbar */
+    .navbar {
+        gap: 15px;
+        width: 768px;
+        height: 72px;
+        top: 36px;
+        opacity: 1;
+        box-shadow: 0px 2px 16px 16px #CCCCCC33;
+
+
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .quote {
+        display: none;
+
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    /* hero section */
+    .hero-section {
+
+
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+        width: 768px;
+        height: 292px;
+        opacity: 1;
+        gap: 32px;
+
+    }
+
+    .htext h1 {
+        position: static;
+        font-size: 32px;
+        line-height: 40px;
+        width: 718px;
+        height: 120px;
+        opacity: 1;
+
+    }
+
+    .htext p {
+        position: static;
+
+        width: 718px;
+        height: 72px;
+        opacity: 1;
+
+    }
+
+    .hbuttons {
+        position: static;
+        justify-content: center;
+        margin-top: 20px;
+        width: 615px;
+        height: 48px;
+        opacity: 1;
+        gap: 16px;
+
+    }
+
+    .himage img {
+        position: static;
+        height: auto;
+        margin-top: 30px;
+        width: 676px;
+        height: 338px;
+        top: 528px;
+        left: 24px;
+        opacity: 1;
+    }
+
+    /* welcome */
+    .welcome {
+
+        width: 768px;
+        height: 304px;
+        top: 253px;
+        left: -330px;
+        opacity: 1;
+        gap: 10px;
+        padding-top: 64px;
+        padding-right: 358px;
+        padding-bottom: 64px;
+        padding-left: 358px;
+        position: relative;
+
+    }
+
+    .welcome-text h2 {
+        font-size: 28px;
+        width: 722px;
+        height: 80px;
+        opacity: 1;
+
+    }
+
+    .welcome-text p {
+        width: 722px;
+        height: 72px;
+        opacity: 1;
+
+    }
+
+    /* training */
+    .training {
+        flex-direction: column;
+        width: 768px;
+        height: 1503px;
+        top: 1234px;
+        justify-content: space-between;
+        opacity: 1;
+        padding-top: 64px;
+        padding-right: 24px;
+        padding-bottom: 64px;
+        padding-left: 24px;
+
+    }
+
+    .text-training {
+        text-align: center;
+        width: 720px;
+        height: 368px;
+        opacity: 1;
+        gap: 24px;
+        position: relative;
+        top: 70px;
+
+    }
+
+    .cards-training {
+        position: static;
+        grid-template-columns: 1fr;
+        margin-top: 30px;
+        width: 720px;
+        height: 959px;
+        opacity: 1;
+        gap: 32px;
+
+    }
+
+    .card {
+        width: 718px;
+        height: 105px;
+        box-shadow: 0px 2px 20px 16px #AEAEAE33;
+
+    }
+
+    /* public courses */
+    .public-courses {
+        flex-direction: column;
+        width: 768px;
+        height: 843px;
+        top: 2673px;
+        opacity: 1;
+        padding-top: 64px;
+        padding-right: 24px;
+        padding-bottom: 64px;
+        padding-left: 24px;
+
+    }
+
+    .pimage img {
+        width: 719;
+        height: 403px;
+        opacity: 1;
+
+    }
+
+    /* services */
+    .services {
+        flex-direction: column;
+        width: 768px;
+        height: 813px;
+        top: 3516px;
+        opacity: 1;
+        padding-top: 64px;
+        padding-right: 24px;
+        padding-bottom: 64px;
+        padding-left: 24px;
+
+    }
+
+    .services-container {
+        flex-direction: column;
+        position: static;
+        gap: 20px;
+        margin-top: 30px;
+        width: 719px;
+        height: 309px;
+        opacity: 1;
+        gap: 24px;
+        overflow: hidden;
+
+    }
+
+    .service-card {
+        width: 622px;
+        height: 309px;
+        opacity: 1;
+        gap: 24px;
+        box-shadow: 0px 2px 20px 16px #AEAEAE33;
+
+    }
+
 }
